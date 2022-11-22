@@ -1,4 +1,5 @@
-![C_Sharp logo](https://images.app.goo.gl/6wQYBgwsMry8VcLw8)
+![C_Sharp logo](https://upload.wikimedia.org/wikipedia/commons/4/4f/Csharp_Logo.png)
+
 # C_Sharp Seminar
 
 ## Lesson 1
