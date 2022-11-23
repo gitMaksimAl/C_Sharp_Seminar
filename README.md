@@ -3,4 +3,4 @@
 # C_Sharp Seminar
 
 ## Lesson 1
-Using input, output console methods, type cast, formatted strings.
+Using input, output console methods, string conversion, formatted strings.
