@@ -12,4 +12,4 @@ Using functions, composite statement, work with integers, integer like string, a
 Use coordinate axis, use Math module(power, rounding), work with integers, work with 2d & 3d coordinates.
 
 ## Lesson 4
-Workin with integer, for cicle, 
+Workin with integer, for cicle, counters
