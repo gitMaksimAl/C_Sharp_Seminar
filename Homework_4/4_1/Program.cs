@@ -10,6 +10,7 @@ int getNum(string message) {
 // function raise num a(integer) to power b(integer), does not handle stack overflow
 void power_of(int a, int b) {
     int pow = 1;
+    Console.Clear();
     Console.Write($"{a}, {b} -> ");
     if (b < 0 && a != 0) {
         b = -b;
