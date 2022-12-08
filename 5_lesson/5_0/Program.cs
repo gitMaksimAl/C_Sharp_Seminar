@@ -1,7 +1,7 @@
 ﻿// Задайте массив из 12ти элементов, заполненый случайными числами [-9, 9].
 // Найдите сумму отрицательных и положительных элементов массива.
 
-// creates an array of nmemb pseudo-random integes in range[max, min]
+// creates an array of nmemb pseudo-random integers in range[max, min]
 int[] arr_of(int nmemb, int min, int max) {
     int[] mass = new int[nmemb];
     for (int i = 0; i < nmemb; i++) mass[i] = new Random().Next(min, max);

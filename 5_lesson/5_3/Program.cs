@@ -1,7 +1,7 @@
 ﻿// Задайте одномерный массив из 123 случайных чисел. Найдите количество
 // элементов массива, значения которых лежат в отрезке[10, 99]
 
-// creates an array of nmemb pseudo-random integes in range[max, min]
+// creates an array of nmemb pseudo-random integers in range[max, min]
 int[] arr_of(int nmemb, int min, int max) {
     int[] mass = new int[nmemb];
     for (int i = 0; i < nmemb; i++) mass[i] = new Random().Next(min, max);
