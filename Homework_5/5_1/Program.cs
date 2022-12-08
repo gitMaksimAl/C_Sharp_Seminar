@@ -17,7 +17,7 @@ void display_arr(int[] arr) {
     Console.Write(arr[i]);
 }
 
-// return count of even nums in array
+// return the count of even nums in array
 int EvenCount(int[] arr) {
     int count = arr.Length;
     for (int i = 0; i < arr.Length; i++) count -= arr[i] % 2;
