@@ -15,3 +15,4 @@ Use coordinate axis, use Math module(power, rounding), work with integers, work 
 Workin with integer, for cicle, counters, massive.
 
 ## Lesson 5
+Workin with array, make array from another array, cycles, examinations, modulo calculation,
