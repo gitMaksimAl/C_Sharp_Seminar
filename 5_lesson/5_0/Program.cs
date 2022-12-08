@@ -17,6 +17,7 @@ void display_arr(int[] arr) {
     Console.WriteLine(arr[i]);
 }
 
+// display sum of positive nambers and sum of negative numbers of array
 void display_sums(int[] arr) {
     int pos, neg;
     pos = neg = 0;
@@ -25,7 +26,7 @@ void display_sums(int[] arr) {
         if (arr[i] > 0) pos += arr[i];
         else neg += arr[i];
     }
-    Console.WriteLine($"summ of positive numbers = {pos}\nsumm of negative numbers = {neg}");
+    Console.WriteLine($"sum of positive numbers = {pos}\nsum of negative numbers = {neg}");
 }
 
 int[] m = arr_of(12, -9, 9);
