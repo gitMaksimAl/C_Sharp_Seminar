@@ -16,3 +16,7 @@ Workin with integer, for cicle, counters, massive.
 
 ## Lesson 5
 Workin with array, make array from another array, cycles, examinations, modulo calculation, array of doubles, use pseudo-random function.
+
+## Lesson 6
+Workin with array, 2d array, reverse array, copy array, _Triangle inequality_, decimal to binary conversion.
+Using dynamic assigment of tuples?, console input. Find _line-line intersection_ with _System of linear equations_.
