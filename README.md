@@ -20,3 +20,6 @@ Workin with array, make array from another array, cycles, examinations, modulo c
 ## Lesson 6
 Workin with array, 2d array, reverse array, copy array, _Triangle inequality_, decimal to binary conversion.
 Using dynamic assigment of tuples?, console input. Find _line-line intersection_ with _System of linear equations_.
+
+## Lesson 7
+Work with 2d array, diagonal, columns of array, postions, search members of array.
