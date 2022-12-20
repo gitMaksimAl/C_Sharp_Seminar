@@ -32,4 +32,5 @@ array.
 
 ## Lesson 8
 Work with 2d array, __Transposition of array__, cuting of array, __word list__
-(частотный словарь) composition, 
+(частотный словарь) composition, __bubble sort__ the rows of array, __matrix
+multiply__.
