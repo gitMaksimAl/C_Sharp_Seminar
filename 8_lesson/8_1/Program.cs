@@ -1,10 +1,12 @@
-﻿// Задайте двумерный массив. Напишите программу, которая заменяет строки на столбцы.
-// В случае если это не возможно, программа должна вывести сообщение для пользователя.
+﻿// Задайте двумерный массив. Напишите программу, которая заменяет строки на
+// столбцы. В случае если это не возможно, программа должна вывести сообщение
+// для пользователя.
 
 int MinRndmValue = -9;
 int MaxRndmValue = 9;
 
-// Creates an rows*columns 2d array of pseudo-random integers in range[MinRndmValue, MaxRndmValue].
+// Creates an rows*columns 2d array of pseudo-random integers in range
+// [MinRndmValue, MaxRndmValue].
 int[,] Array2d(int rows, int columns) {
     int[,] mass = new int[rows, columns];
     for (int i = 0; i < rows; i++) {
@@ -17,7 +19,8 @@ int[,] Array2d(int rows, int columns) {
 // Display values of the 2d array.
 void Display2dArray(int[,] arr) {
     for (int i = 0; i < arr.GetLength(0); i++) {
-        for (int j = 0; j < arr.GetLength(1); j++) Console.Write($"{arr[i, j], 4} ");
+        for (int j = 0; j < arr.GetLength(1); j++)
+            Console.Write($"{arr[i, j], 4} ");
         Console.Write('\n');
     }
 }
@@ -26,7 +29,8 @@ void Display2dArray(int[,] arr) {
 void Transposition2d(int[,] arr) {
     if (arr.GetLength(0) == arr.GetLength(1)) {
         for (int i = 0; i < arr.GetLength(0); i++) {
-            for (int j = 0; j < i; j++) (arr[i, j], arr[j, i]) = (arr[j, i], arr[i, j]);
+            for (int j = 0; j < i; j++)
+                (arr[i, j], arr[j, i]) = (arr[j, i], arr[i, j]);
         }
     }
 }
