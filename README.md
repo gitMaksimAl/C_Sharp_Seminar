@@ -34,3 +34,6 @@ array.
 Work with 2d array, __Transposition of array__, cuting of array, __word list__
 (частотный словарь) composition, __bubble sort__ the rows of array, __matrix
 multiply__.
+
+## Lesson 9
+Work with __recursion__. 
