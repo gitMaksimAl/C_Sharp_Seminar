@@ -7,8 +7,8 @@ void ForwardEvensR(int m, int n) {
     if (m == n) Console.WriteLine("");
     else if (m > 0 && m % 2 == 0) {
         Console.Write($"{m} ");
-        PrintEvenR(m + 1, n);
-    } else PrintEvenR(m + 1, n); 
+        ForwardEvensR(m + 1, n);
+    } else ForwardEvensR(m + 1, n); 
 }
 
 // Print to the console all even nums from
@@ -17,8 +17,8 @@ void BackwardEvensR(int m, int n) {
     if (m == n) Console.WriteLine("");
     else if (m > 0 && m % 2 == 0) {
         Console.Write($"{m} ");
-        PrintEvenR(m - 1, n);
-    } else PrintEvenR(m - 1, n); 
+        BackwardEvensR(m - 1, n);
+    } else BackwardEvensR(m - 1, n); 
 }
 
 void PrintEvenR(int m, int n) {
