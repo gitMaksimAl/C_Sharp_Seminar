@@ -25,7 +25,7 @@ void Display2dArray(int[,] arr) {
 }
 
 // Returns a matrix C - the result of multiplying matrices A and B
-int[,] GetSum2dMatrix(int[,] A, int[,] B) {
+int[,] GetProduct2dMatrix(int[,] A, int[,] B) {
     int row = A.GetLength(0);
     int column = B.GetLength(1);
     int[,] C = new int[A.GetLength(0), B.GetLength(1)];
